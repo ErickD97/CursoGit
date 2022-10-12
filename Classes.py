@@ -46,7 +46,7 @@ elif command.upper() == 'B':
     print(f'La distancia es: {point1.distance(xd,yd)}')
 elif command.upper() == 'C':
     [distancia, angulox, anguloy] = point1.angle()
-    print(f'El punto esta a {distancia} unidades, tiene un angulo con el eje X de {angulox} grados y con el eje Y de {anguloy} grados')
+    print(f'El punto esta a {distancia} unidades, tiene un ángulo con el eje X de {angulox} grados y con el eje Y de {anguloy} grados')
 else:
     print('No ha ingresado una opción válida')
 
